@@ -1,7 +1,13 @@
 .movieText {
-   color: black;
+   color: rgb(40, 158, 10);
+   
 }
 
 .movieHeading {
    color: black;
+   text-align: left;
+}
+
+.movieHeading, .movieText {
+   font-size: 22px;
 }
