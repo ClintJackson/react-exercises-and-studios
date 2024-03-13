@@ -1,0 +1,10 @@
+.ingredientsListHeader {
+    border: 2px solid black;
+    font-size: x-large;
+}
+
+.ingredientList {
+    text-align: left;
+    list-style-type: "\1F44D";
+    font-size: larger;
+}
