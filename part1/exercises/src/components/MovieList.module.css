@@ -6,6 +6,7 @@
 .movieHeading {
    color: black;
    text-align: left;
+   background-color: aquamarine;
 }
 
 .movieHeading, .movieText {

@@ -1,0 +1,9 @@
+.mainDiv{
+    background-color: aqua;
+    border: 2px solid green;
+}
+
+.griddyGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}

@@ -1,3 +1,4 @@
+import classes from "./BookList.module.css"
 export default function BookList() {
    let pageTitle = "a better section heading";
    let book1 = "https://whitmorerarebooks.cdn.bibliopolis.com/pictures/1699.jpg?auto=webp&v=1522521921";
@@ -5,11 +6,15 @@ export default function BookList() {
    let book3 = "https://images.booksense.com/images/712/413/9780756413712.jpg";
 
    return (
-      <div>
+      <div className={classes.mainDiv}>
          <h3>{pageTitle}</h3>
-         <img src={book1} alt="Original Jane Austen Pride and Prejudice Set" />
-         <img src={book2} alt="Game of Thrones Folio Society Set" />
-         <img src={book3} alt="The Name of the Wind, by Patrick Rothfuss" />
+         <div className = {classes.griddyGrid}> 
+         {/* the comments here are weird 
+         Grid is difficult, need more practice.*/}
+            <img src={book1} alt="Original Jane Austen Pride and Prejudice Set" />
+            <img src={book2} alt="Game of Thrones Folio Society Set" />
+            <img src={book3} alt="The Name of the Wind, by Patrick Rothfuss" />
+         </div>
       </div>      
    );
 }

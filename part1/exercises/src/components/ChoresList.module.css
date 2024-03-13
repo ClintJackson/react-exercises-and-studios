@@ -1,3 +1,5 @@
+
+
 .choresText {
    color: rgb(177, 11, 11);
    font-style: italic;
@@ -11,4 +13,5 @@
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    text-decoration: underline;
    font-size: 22px;
+   text-align: left;
 }
