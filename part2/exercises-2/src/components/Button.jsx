@@ -1,12 +1,13 @@
-import './styles.css';
+import style from './styles.module.css';
 
-function Button() {
-
+export default function Button() {
+   function onLearnMore(){
+      alert("Stay splish splashin' mis amigos")
+   }
    return ( 
-         <button>
+         <button onClick = {onLearnMore}>
             Learn More
          </button>
    );
 }
 
-export default Button;

@@ -1,8 +1,8 @@
-import './styles.css';
+import styles from './styles.module.css';
 
 function Banner(){
    return(
-      <h1>Hello, World!</h1>
+      <h1 className={styles.header}>The Amazing Ocean</h1>
    );
 }
 
