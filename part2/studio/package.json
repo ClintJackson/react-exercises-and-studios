@@ -19,7 +19,7 @@
     "@svgr/webpack": "$@svgr/webpack"
   },
   "scripts": {
-    "start": "vite",
+    "launch": "vite",
     "build": "vite build",
     "serve": "vite preview"
   },

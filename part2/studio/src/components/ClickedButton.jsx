@@ -1,5 +1,14 @@
+import style from './styles.module.css';
 function ClickedButton() {
-  return;
+  function handleClick(){
+      alert ("You clicked save");
+  }
+  return (
+      <button id={style.clickedButton} onClick={handleClick}>
+        Unsave
+      </button>
+  
+  );
 }
 
 export default ClickedButton;
