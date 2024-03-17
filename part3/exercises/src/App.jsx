@@ -6,13 +6,14 @@ import MyProjects from './components/Projects';
 function App() {
 
   return (
-    <>
-      <div className="App">
-	  <h1>My Hobby: Needlepoint</h1>
-	  <HobbyIntroduction />
-	  <MyProjects />
+    <div className = "App">
+      <h1>My Hobby: Guitar</h1>
+      <div>
+        <HobbyIntroduction/>
+        <MyProjects/>
       </div>
-    </>
+
+    </div>
   )
 }
 

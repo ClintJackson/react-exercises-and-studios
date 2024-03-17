@@ -2,30 +2,29 @@ import data from '../data.json';
 import { useState } from 'react';
 
 export default function MyProjects() {
-   const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(0);
 
+
+  
+
+  let myProjects = data.projects;
   function handleClick() {
-   if (index < data.projects.length-1)
-   {
-      setIndex(index + 1);
-   }
-   else
-   {
-      setIndex(0);
-   }
+  (index < myProjects.length-1) ? setIndex(index + 1) : setIndex(0);
+  
   }
-
-  let projects = data.projects;
-  let project = projects[index];
+  
+  let indivProject = myProjects[index];
 
   return (
     <div>
       <button onClick={handleClick}>
         Next
       </button>
-      <h2>{project.canvas} by {project.designer}
-      </h2>
-      <img src={project.photoUrl} alt={project.alt} />
+      <div>
+         <h2>{indivProject.canvas} by {indivProject.designer}</h2>
+         <img src={indivProject.photoUrl} />
+      </div>
+      <h3>Wait, what?...these aren't guitars...?</h3>
     </div>
   );
 }
