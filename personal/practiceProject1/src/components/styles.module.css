@@ -1,0 +1,18 @@
+.messagePreviewContainer {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.messagePreview {
+    word-wrap: break-word;
+    max-width: 90%;
+    
+}
+
+textarea {
+    display: block;
+    margin: 0, auto;
+    width: 90%;
+}

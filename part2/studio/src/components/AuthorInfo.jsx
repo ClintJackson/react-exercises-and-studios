@@ -1,8 +1,6 @@
 import style from './styles.module.css';
 import data from './recipe.json';
 
-//website import?
-
 export default function AuthorInfo() {
   const authorName = data.map(data => (
     <div key = {data.name}> {data.author}</div>

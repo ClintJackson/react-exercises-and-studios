@@ -4,9 +4,6 @@ import { useState } from 'react';
 export default function MyProjects() {
   const [index, setIndex] = useState(0);
 
-
-  
-
   let myProjects = data.projects;
   function handleClick() {
   (index < myProjects.length-1) ? setIndex(index + 1) : setIndex(0);
